@@ -1,0 +1,12 @@
+<template name="notify">
+
+	{{#if notify}}
+		<div class="container">
+			<div class="alert alert-{{notify.type}}" role="alert">
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				{{notify.message}}
+			</div>
+		</div>
+	{{/if}}
+
+</template>
