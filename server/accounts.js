@@ -14,10 +14,3 @@ Accounts.onCreateUser(function (options, user) {
 
 	return user;
 });
-
-
-Meteor.methods({
-	'sendWelcomeEmail': function(){
-		console.log('sendWelcomeEmail');
-	}
-});

@@ -1,3 +1,8 @@
+Accounts.onLogin( function() {
+	Router.go('/logged');
+});
+
+
 Template.registerPopup.rendered = function() {
 	Session.set('registerError', false);
 };
@@ -36,12 +41,6 @@ Template.registerPopup.helpers({
 		return Session.get('registerError');
 	}
 });
-/*
-Accounts.onEmailVerificationLink( function(token, done) {
-	notify('success', 'Email account verified');
-	done();
-});
-*/
 
 
 Template.loginPopup.rendered = function() {

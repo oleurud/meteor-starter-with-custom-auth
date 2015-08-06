@@ -5,7 +5,7 @@ Template.Home.created = function() {
 				notify('danger', 'Sorry this verification link has expired');
 			} else {
 				notify('success', 'Thank you! Your email address has been confirmed.');
-				Meteor.call('sendWelcomeEmail');
+				//Meteor.call('sendWelcomeEmail');
 			}
 		});
 	}
