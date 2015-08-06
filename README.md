@@ -1,4 +1,6 @@
-Meteor stater project with custom auth.
+Meteor starter project with custom auth.
+
+Demo: customauth.meteor.com
 
 To install:
 meteor add accounts-password
